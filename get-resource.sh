@@ -6,7 +6,7 @@ export http_proxy=${http_proxy:-$HTTP_PROXY}
 export https_proxy=${https_proxy:-$HTTPS_PROXY}
 
 # Which image should we use
-SNAP=${1:-current-tripleo}
+SNAP="09dfd5d2324dabfff402bc47ef288de8"
 IPA_BASEURI=${IPA_BASEURI:-https://images.rdoproject.org/centos8/master/rdo_trunk/$SNAP/}
 
 FILENAME=ironic-python-agent
