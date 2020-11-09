@@ -6,8 +6,10 @@ export http_proxy=${http_proxy:-$HTTP_PROXY}
 export https_proxy=${https_proxy:-$HTTPS_PROXY}
 
 # Which image should we use
+#v6
+SNAP=${1:-current-tripleo-rdo}
 #v5
-SNAP=${1:-previous-current-tripleo}
+#SNAP=${1:-previous-current-tripleo}
 #v4
 #SNAP=${1:-previous-current-tripleo-rdo}
 IPA_BASEURI=${IPA_BASEURI:-https://images.rdoproject.org/centos8/master/rdo_trunk/$SNAP/}
